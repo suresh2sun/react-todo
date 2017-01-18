@@ -1,6 +1,8 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var TodoApp = require('TodoApp');
+
 var obj1 = {
   name: 'Suresh',
   location: 'Phoenix'
@@ -14,6 +16,6 @@ var obj2 = {
 console.log(obj2);
 
 ReactDOM.render(
-  <h1>Boilerplate App!!!</h1>,
+  <TodoApp />,
   document.getElementById('app')
 );
